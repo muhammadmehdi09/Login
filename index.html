@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Login</title>
+</head>
+<body>
+    <div class="signup">
+    <h1>Signup</h1>
+    <form onsubmit="signup();return false">
+        <input type="text" placeholder="Name" id="username" required>
+        <br>
+        <br>
+        <input type="text" placeholder="Email" id="email" required>
+        <br>
+        <br>
+        <input type="password" placeholder="Password" id="password" required>
+        <br>
+        <br>
+        <button type="submit">Signup</button>
+    </form>
+</div>
+<br><br><br><br><br><br><br><br>
+
+<div class="login">
+    <h1>Login</h1>
+    <form onsubmit="login();return false">
+        <input type="text" placeholder="Email" id="login_email" required>
+        <br>
+        <br>
+        <input type="password" placeholder="Password" id="login_password" required>
+        <br>
+        <br>
+        <button type="submit">Login</button>
+    </form>
+</div>
+<div id="loginSuc"></div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
